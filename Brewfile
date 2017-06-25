@@ -22,13 +22,11 @@ cask "little-snitch"
 cask "mplayerx"
 cask "openemu"
 cask "plex-media-server"
-cask "prey"
 cask "sabnzbd"
 cask "slack"
 cask "sonarr"
 cask "steam"
 cask "the-unarchiver"
-cask "xbox360-controller-driver"
 
 brew "bash-completion"
 brew "ccat"
@@ -41,3 +39,9 @@ brew "jq"
 brew "mackup"
 brew "mr"
 brew "youtube-dl"
+
+if ENV["API_KEY"]
+  cask "prey"
+else
+  print "Set `API_KEY` environment variable to install prey..."
+end
