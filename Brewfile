@@ -1,3 +1,4 @@
+tap "caskroom/drivers"
 tap "caskroom/fonts"
 cask "font-source-code-pro"
 
@@ -31,6 +32,8 @@ cask "slack"
 cask "sonarr"
 cask "steam"
 cask "the-unarchiver"
+cask "unifi-controller"
+cask "xbox360-controller-driver"
 
 brew "bash-completion"
 brew "ccat"
