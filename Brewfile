@@ -44,6 +44,7 @@ brew "httpie"
 brew "hub"
 brew "jq"
 brew "mackup"
+brew "mas"
 brew "mr"
 brew "youtube-dl"
 
