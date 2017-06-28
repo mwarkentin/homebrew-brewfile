@@ -48,6 +48,19 @@ brew "mas"
 brew "mr"
 brew "youtube-dl"
 
+mas "DaisyDisk", id: 411643860
+mas "Day One", id: 1055511498
+mas "Deckset", id: 847496013
+mas "Deliveries", id: 924726344
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Monosnap", id: 540348655
+mas "Moom", id: 419330170
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Paprika Recipe Manager", id: 451907568
+
 if ENV["API_KEY"]
   cask "prey"
 else
