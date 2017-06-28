@@ -1,6 +1,9 @@
+tap "caskroom/cask"
 tap "caskroom/drivers"
 tap "caskroom/fonts"
-cask "font-source-code-pro"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/services"
 
 cask "1password"
 cask "aerial"
