@@ -28,6 +28,7 @@ cask "mplayerx"
 cask "openemu"
 cask "plex-media-server"
 cask "printopia"
+cask "radarr"
 cask "sabnzbd"
 # License not updated for latest sketch
 # cask "sketch"
